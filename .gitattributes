@@ -1,0 +1,13 @@
+# 统一换行符为 LF，避免 Windows 上出现「整文件变更」的噪音 diff
+* text=auto eol=lf
+
+# 二进制文件不做换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# 数据文件保持原样（CSV 内可能含 CRLF，不做转换以免影响校验）
+*.csv -text
