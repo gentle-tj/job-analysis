@@ -1,4 +1,4 @@
 # Jekyll 站点配置（GitHub Pages 默认读取）
-title: 大数据岗位分析 · 求职作品集
-description: 从 4,100 条招聘数据到 4 条求职结论 · Python/Pandas/Matplotlib · 数据清洗与 EDA
+title: 大数据招聘岗位数据分析
+description: 从 4,100 条招聘数据到 4 条求职结论 · Python/Pandas/Matplotlib · 数据清洗与 EDA · 求职作品集
 theme: jekyll-theme-cayman
