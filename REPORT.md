@@ -8,7 +8,7 @@
 
 ---
 
-> 本报告可在 GitHub 直接阅读；同内容另有 [GitHub Pages 排版版](docs/project-report.md) 与 [PDF 版](assets/report_full.pdf)（13 页，可随简历附送）。<br>
+> 本报告可在 GitHub 直接阅读；同内容另有 [GitHub Pages 排版版](docs/project-report.md) 与 [PDF 版](assets/report_full.pdf)（14 页，可随简历附送）。<br>
 > 返回 [仓库首页](README.md)
 
 ---

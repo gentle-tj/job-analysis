@@ -99,7 +99,7 @@
 │   └── job_visualization.py         # ① 四图绘制脚本
 ├── assets/
 │   ├── vis_edu.png / vis_city.png / vis_skill.png / vis_exp.png   # ① 四张图
-│   ├── report_full.pdf              # ① 报告 PDF（13 页）
+│   ├── report_full.pdf              # ① 报告 PDF（14 页）
 │   └── chart_*.png                  # ② 聚类相关图表
 └── data/
     ├── clean_jobs_3498.csv          # ① 清洗后主表（3,498 × 19）
