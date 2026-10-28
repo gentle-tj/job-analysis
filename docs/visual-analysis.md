@@ -134,7 +134,7 @@ plt.rcParams["font.sans-serif"] = ["Microsoft YaHei", "SimHei", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False   # 负号正常显示
 plt.rcParams["savefig.dpi"] = 200            # 网页用图清晰度
 
-# 读入清洗结果并按同一口径剔除异常薪资（清洗阶段只标记、不删除）
+# 读入清洗结果（清洗阶段已剔除单位错误值，IQR 离群仅诊断、不删除）
 df = pd.read_csv("cleaned_jobs.csv", encoding="utf-8-sig")
 df["月薪中点"] = pd.to_numeric(df["月薪中点"], errors="coerce")
 df.loc[df["薪酬_异常"].fillna(False).astype(bool), "月薪中点"] = np.nan
