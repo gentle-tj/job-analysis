@@ -27,7 +27,9 @@ title: 大数据招聘岗位数据分析
 
 ## 查看完整内容
 
+- 📊 **[大数据岗位招聘信息可视化分析（3,498 条清洗数据 · 4 张图表 + 4 条求职结论）](docs/visual-analysis.md)** ← 新增
 - 📄 [完整项目报告（含 6 张图表与全部解读）](docs/report.md)
+- 🧮 [清洗与 EDA 脚本](src/bigdata_job_clean_eda.py) · [可视化绘图脚本](src/job_visualization.py)
 - 📊 [分析主数据集 data_cleaned.csv](data/data_cleaned.csv)
 - 📌 [聚类结果 candidate_kmeans_result.csv](data/candidate_kmeans_result.csv)
 
